@@ -1,9 +1,32 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+            tailwind.config = {
+              theme: {
+                extend: {
+                  colors: {
+                    clifford: '#da373d',
+                  }
+                }
+              }
+            }
+          </script>
         <title>test page</title>
     </head>
-    <body>
+    <body>       
+       <h1 class="text-3xl font-bold underline text-clifford">
+        Hello world!12
+      </h1><br>
 
+      <div class="divide-y divide-slate-700 ...">
+        <div>01</div>
+        <div>02</div>
+        <div>03</div>
+      </div>
+      <br>
+      <span class="border-y-8 border-blue-500">djfjgjhgjgjg jghjgjg jgjgjgjg s</span>
+      <div class="border-2 border-sky-500"></div>
     </body>
 </html>
